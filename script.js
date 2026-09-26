@@ -1,10 +1,4 @@
-const imagebox = [
-  "images/image1.jpg",
-  "images/image2.png",
-  "images/image3.jpg",
-  "images/image4.jpg",
-  "images/image5.jpg",
-];
+
 
 let currentIndex = 0;
 
@@ -23,10 +17,6 @@ const galleryImages = document.querySelectorAll(".gallery-image");
 const prevButton = document.getElementById("prev-button");
 const nextButton = document.getElementById("next-button");
 
-// function to update the main image
-function updateMainImage() {
-  mainImage.src = images[currentIndex];
-}
 
 // click event for next button
 nextButton.addEventListener("click", () => {
